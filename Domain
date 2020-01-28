@@ -1,0 +1,13 @@
+#!/bin/sh
+
+## by José Paulo - https://github.com/JPAlvim
+
+# Check the domain returned with dsconfigad
+
+domain=$( dsconfigad -show | awk '/Active Directory Domain/{print $NF}' )
+
+if [[ "$domain" == "" ]]; then
+    echo "No Domain"
+else
+    echo "$domain"
+fi

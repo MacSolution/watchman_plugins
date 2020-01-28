@@ -1,8 +1,4 @@
-#!/bin/sh
-
-## by José Paulo - https://github.com/JPAlvim
-
-#Checks for Battery Health and Cycles
+#!/bin/bash
 
 Health=$(system_profiler SPPowerDataType | grep "Condition" | awk '{print $2}')
 Cicles=$(system_profiler SPPowerDataType | grep "Cycle Count")
@@ -10,11 +6,9 @@ Condition=$(system_profiler SPPowerDataType | grep "Condition")
 
 if [ "$Health" == "Normal" ];
 then
-  echo $Cicles
   echo $Condition
   exit 0
 else
-  echo $Cicles
   echo $Condition
-  exit 1
+  exit 0
 fi
