@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PluginName</key>
+	<string>MacSolution Domain</string>
+	<key>PluginUUID</key>
+	<string>e6fd926c-67e0-4f34-a207-e0b0915d4982</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>macsolution_domain.plugin</string>
+	</array>
+</dict>
+</plist>

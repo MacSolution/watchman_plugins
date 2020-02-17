@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PluginName</key>
+	<string>MacSolution Battery Health</string>
+	<key>PluginUUID</key>
+	<string>252285d2-bcde-4037-8cef-e5f264cd1785</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>macsolution_battery_health.plugin</string>
+	</array>
+</dict>
+</plist>
