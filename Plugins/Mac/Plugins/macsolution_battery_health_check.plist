@@ -8,7 +8,7 @@
 	<string>252285d2-bcde-4037-8cef-e5f264cd1785</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>macsolution_battery_health.plugin</string>
+		<string>_macsolution_battery_health.plugin</string>
 	</array>
 </dict>
 </plist>
