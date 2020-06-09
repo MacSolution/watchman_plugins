@@ -8,6 +8,8 @@ domain=$( dsconfigad -show | awk '/Active Directory Domain/{print $NF}' )
 
 if [[ "$domain" == "" ]]; then
     echo "No Domain"
+    exit 0
 else
     echo "$domain"
+    exit 0
 fi
