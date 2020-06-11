@@ -4,6 +4,8 @@
 <dict>
 	<key>PluginName</key>
 	<string>MacSolution Battery Health</string>
+	<key>PluginSlug</key>
+	<string>macsolution-battery-health</string>
 	<key>PluginUUID</key>
 	<string>252285d2-bcde-4037-8cef-e5f264cd1785</string>
 	<key>ProgramArguments</key>
